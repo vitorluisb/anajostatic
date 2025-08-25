@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recursos de acessibilidade do site da ONG Anajo - Saiba como navegar e utilizar nosso site de forma acessível">
+    <meta name="keywords" content="acessibilidade, ONG Anajo, WCAG, navegação acessível, alto contraste">
+    <meta name="author" content="ONG Anajo">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.anajo.org/acessibilidade.html">
+    <meta property="og:title" content="Acessibilidade - ONG Anajo">
+    <meta property="og:description" content="Recursos de acessibilidade do site da ONG Anajo - Saiba como navegar e utilizar nosso site de forma acessível">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.anajo.org/acessibilidade.html">
+    <meta property="twitter:title" content="Acessibilidade - ONG Anajo">
+    <meta property="twitter:description" content="Recursos de acessibilidade do site da ONG Anajo - Saiba como navegar e utilizar nosso site de forma acessível">
+    <meta property="twitter:image" content="images/og-image.jpg">
+    
+    <title>Acessibilidade - ONG Anajo</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Acessibilidade - ONG Anajo",
+      "description": "Recursos de acessibilidade do site da ONG Anajo - Saiba como navegar e utilizar nosso site de forma acessível",
+      "url": "https://www.anajo.org/acessibilidade.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ONG Anajo",
+        "url": "https://www.anajo.org"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://www.anajo.org"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Acessibilidade",
+            "item": "https://www.anajo.org/acessibilidade.html"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Barra de acessibilidade -->
+    <div class="accessibility-bar bg-dark text-white py-1">
+        <div class="container d-flex justify-content-end">
+            <button class="btn btn-sm btn-outline-light me-2" id="increase-font"><i class="fas fa-plus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="decrease-font"><i class="fas fa-minus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="contrast-toggle"><i class="fas fa-adjust"></i> Contraste</button>
+            <a href="acessibilidade.html" class="btn btn-sm btn-outline-light active">Acessibilidade</a>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-anajo.png" alt="Logo ONG Anajo" width="150" height="60" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetos.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transparencia.html">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-primary" href="doar.html">Doar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-header bg-primary text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">Acessibilidade</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html" class="text-white">Início</a></li>
+                                <li class="breadcrumb-item active text-white-50" aria-current="page">Acessibilidade</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conteúdo de Acessibilidade -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card shadow-sm mb-4">
+                            <div class="card-body p-4">
+                                <h2 class="h3 mb-4">Nosso Compromisso com a Acessibilidade</h2>
+                                <p>A ONG Anajo está comprometida em garantir que nosso site seja acessível a todos os usuários, independentemente de suas habilidades ou deficiências. Trabalhamos continuamente para melhorar a usabilidade e acessibilidade de nosso site seguindo as diretrizes WCAG 2.1 (Web Content Accessibility Guidelines) nível AA.</p>
+                                
+                                <h3 class="h4 mt-4 mb-3">Recursos de Acessibilidade Disponíveis</h3>
+                                <ul class="list-group list-group-flush mb-4">
+                                    <li class="list-group-item">
+                                        <i class="fas fa-text-height text-primary me-2"></i>
+                                        <strong>Ajuste de Tamanho de Texto:</strong> Você pode aumentar ou diminuir o tamanho do texto em todo o site usando os botões A+ e A- na barra de acessibilidade no topo da página.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-adjust text-primary me-2"></i>
+                                        <strong>Modo de Alto Contraste:</strong> Ative o modo de alto contraste para melhorar a legibilidade clicando no botão "Contraste" na barra de acessibilidade.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-keyboard text-primary me-2"></i>
+                                        <strong>Navegação por Teclado:</strong> Todo o site pode ser navegado usando apenas o teclado. Use a tecla Tab para navegar entre elementos e Enter para ativar links e botões.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-right text-primary me-2"></i>
+                                        <strong>Link para Pular Navegação:</strong> Um link invisível "Pular para o conteúdo principal" aparece quando você pressiona a tecla Tab pela primeira vez, permitindo que você pule diretamente para o conteúdo principal da página.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-heading text-primary me-2"></i>
+                                        <strong>Estrutura Semântica:</strong> Nosso site utiliza marcação HTML semântica adequada, com cabeçalhos hierárquicos e landmarks ARIA para facilitar a navegação com leitores de tela.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-image text-primary me-2"></i>
+                                        <strong>Textos Alternativos:</strong> Todas as imagens informativas possuem textos alternativos descritivos para usuários de leitores de tela.
+                                    </li>
+                                </ul>
+                                
+                                <h3 class="h4 mt-4 mb-3">Como Utilizar os Recursos de Acessibilidade</h3>
+                                
+                                <div class="accordion" id="accordionAcessibilidade">
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Ajustando o Tamanho do Texto
+                                            </button>
+                                        </h4>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAcessibilidade">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Localize a barra de acessibilidade no topo da página</li>
+                                                    <li>Clique no botão <strong>A+</strong> para aumentar o tamanho do texto</li>
+                                                    <li>Clique no botão <strong>A-</strong> para diminuir o tamanho do texto</li>
+                                                    <li>Sua preferência será salva para futuras visitas ao site</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Ativando o Modo de Alto Contraste
+                                            </button>
+                                        </h4>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionAcessibilidade">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Localize a barra de acessibilidade no topo da página</li>
+                                                    <li>Clique no botão <strong>Contraste</strong></li>
+                                                    <li>O site mudará para cores de alto contraste</li>
+                                                    <li>Clique novamente para retornar ao modo normal</li>
+                                                    <li>Sua preferência será salva para futuras visitas ao site</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Navegando com Teclado
+                                            </button>
+                                        </h4>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionAcessibilidade">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><strong>Tab:</strong> Navega para o próximo elemento interativo</li>
+                                                    <li><strong>Shift + Tab:</strong> Navega para o elemento interativo anterior</li>
+                                                    <li><strong>Enter:</strong> Ativa o elemento selecionado (links, botões)</li>
+                                                    <li><strong>Espaço:</strong> Ativa botões e controles de formulário</li>
+                                                    <li><strong>Setas:</strong> Navega dentro de menus e listas</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="h4 mt-4 mb-3">Tecnologias Assistivas Compatíveis</h3>
+                                <p>Nosso site foi testado e é compatível com as seguintes tecnologias assistivas:</p>
+                                <ul>
+                                    <li>Leitores de tela (NVDA, JAWS, VoiceOver)</li>
+                                    <li>Software de ampliação de tela</li>
+                                    <li>Navegação por teclado</li>
+                                    <li>Reconhecimento de voz</li>
+                                </ul>
+                                
+                                <h3 class="h4 mt-4 mb-3">Limitações Conhecidas</h3>
+                                <p>Estamos trabalhando continuamente para melhorar a acessibilidade do nosso site. Atualmente, estamos cientes das seguintes limitações:</p>
+                                <ul>
+                                    <li>Alguns documentos PDF mais antigos podem não ser totalmente acessíveis</li>
+                                    <li>Alguns conteúdos de terceiros incorporados podem ter limitações de acessibilidade</li>
+                                </ul>
+                                
+                                <h3 class="h4 mt-4 mb-3">Feedback e Contato</h3>
+                                <p>Valorizamos seu feedback sobre a acessibilidade do nosso site. Se você encontrar alguma dificuldade ou tiver sugestões para melhorar a acessibilidade, por favor entre em contato conosco:</p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                                    <a href="contato.html" class="btn btn-primary"><i class="fas fa-envelope me-2"></i>Formulário de Contato</a>
+                                    <a href="mailto:acessibilidade@anajo.org" class="btn btn-outline-primary"><i class="fas fa-at me-2"></i>acessibilidade@anajo.org</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card shadow-sm">
+                            <div class="card-body p-4">
+                                <h2 class="h3 mb-4">Declaração de Conformidade</h2>
+                                <p>Este site foi desenvolvido para atender às diretrizes de acessibilidade WCAG 2.1 nível AA. Realizamos testes regulares para garantir a conformidade contínua e estamos comprometidos em manter e melhorar a acessibilidade do nosso site.</p>
+                                <p>Última atualização desta página: Julho de 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section bg-primary text-white py-5">
+            <div class="container text-center">
+                <h2 class="h3 mb-4">Junte-se a nós nessa jornada de transformação social</h2>
+                <p class="lead mb-4">Sua contribuição pode fazer a diferença na vida de muitas pessoas</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="doar.html" class="btn btn-light btn-lg">Doar Agora</a>
+                    <a href="voluntariado.html" class="btn btn-outline-light btn-lg">Ser Voluntário</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo-anajo-white.png" alt="Logo ONG Anajo" width="180" class="mb-4">
+                    <p>Transformando vidas através da educação, esporte e cultura desde 2010.</p>
+                    <div class="social-icons mt-3">
+                        <a href="https://facebook.com/onganajo" class="me-2" aria-label="Facebook da ONG Anajo">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/onganajo" class="me-2" aria-label="Instagram da ONG Anajo">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/onganajo" class="me-2" aria-label="Twitter da ONG Anajo">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com/onganajo" class="me-2" aria-label="Canal do YouTube da ONG Anajo">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/onganajo" aria-label="LinkedIn da ONG Anajo">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Início</a></li>
+                        <li class="mb-2"><a href="sobre.html" class="text-white-50 text-decoration-none">Sobre</a></li>
+                        <li class="mb-2"><a href="projetos.html" class="text-white-50 text-decoration-none">Projetos</a></li>
+                        <li class="mb-2"><a href="transparencia.html" class="text-white-50 text-decoration-none">Transparência</a></li>
+                        <li class="mb-2"><a href="voluntariado.html" class="text-white-50 text-decoration-none">Voluntariado</a></li>
+                        <li class="mb-2"><a href="contato.html" class="text-white-50 text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                            <span>Rua das Flores, 123, Centro<br>São Paulo - SP, 01234-567</span>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-phone me-2 text-primary"></i>
+                            <span>(11) 1234-5678</span>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <span>contato@anajo.org</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock me-2 text-primary"></i>
+                            <span>Seg - Sex: 9h às 18h</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="mb-3">Newsletter</h5>
+                    <p class="text-white-50">Receba novidades sobre nossos projetos e ações</p>
+                    <form class="mt-3">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Seu e-mail" aria-label="Seu e-mail" required>
+                            <button class="btn btn-primary" type="submit" aria-label="Inscrever-se"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4 bg-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-white-50">&copy; 2023 ONG Anajo. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white-50 text-decoration-none">Política de Privacidade</a>
+                        </li>
+                        <li class="list-inline-item ms-3">
+                            <a href="#" class="text-white-50 text-decoration-none">Termos de Uso</a>
+                        </li>
+                        <li class="list-inline-item ms-3">
+                            <a href="acessibilidade.html" class="text-white-50 text-decoration-none">Acessibilidade</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" class="btn btn-primary btn-icon" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

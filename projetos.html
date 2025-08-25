@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os projetos da ONG Anajo nas áreas de educação, esporte e cultura">
+    <meta name="keywords" content="ONG Anajo, projetos sociais, educação, esporte, cultura, inclusão social">
+    <meta name="author" content="ONG Anajo">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.anajo.org/projetos.html">
+    <meta property="og:title" content="Projetos da ONG Anajo - Educação, Esporte e Cultura">
+    <meta property="og:description" content="Conheça os projetos da ONG Anajo nas áreas de educação, esporte e cultura">
+    <meta property="og:image" content="images/og-image-projetos.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.anajo.org/projetos.html">
+    <meta property="twitter:title" content="Projetos da ONG Anajo - Educação, Esporte e Cultura">
+    <meta property="twitter:description" content="Conheça os projetos da ONG Anajo nas áreas de educação, esporte e cultura">
+    <meta property="twitter:image" content="images/og-image-projetos.jpg">
+    
+    <title>Projetos da ONG Anajo - Educação, Esporte e Cultura</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Projetos da ONG Anajo",
+      "description": "Conheça os projetos sociais da ONG Anajo nas áreas de educação, esporte e cultura",
+      "url": "https://www.anajo.org/projetos.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ONG Anajo",
+        "url": "https://www.anajo.org"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://www.anajo.org"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projetos",
+            "item": "https://www.anajo.org/projetos.html"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Barra de acessibilidade -->
+    <div class="accessibility-bar bg-dark text-white py-1">
+        <div class="container d-flex justify-content-end">
+            <button class="btn btn-sm btn-outline-light me-2" id="increase-font"><i class="fas fa-plus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="decrease-font"><i class="fas fa-minus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="contrast-toggle"><i class="fas fa-adjust"></i> Contraste</button>
+            <a href="acessibilidade.html" class="btn btn-sm btn-outline-light">Acessibilidade</a>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-anajo.png" alt="Logo ONG Anajo" width="150" height="60" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projetos.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transparencia.html">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-primary" href="doar.html">Doar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-light py-2">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Projetos</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-header bg-primary text-white py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-4">Nossos Projetos</h1>
+                        <p class="lead mb-0">Conheça as iniciativas que estão transformando vidas através da educação, esporte e cultura.</p>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img src="images/projetos-hero.jpg" alt="Crianças participando de projetos da ONG Anajo" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filtros -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Explore Nossos Projetos</h2>
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        <div class="project-filter text-center">
+                            <button class="btn btn-outline-primary me-2 mb-2 filter-btn active" data-filter="all">Todos</button>
+                            <button class="btn btn-outline-primary me-2 mb-2 filter-btn" data-filter="educacao">Educação</button>
+                            <button class="btn btn-outline-primary me-2 mb-2 filter-btn" data-filter="esporte">Esporte</button>
+                            <button class="btn btn-outline-primary mb-2 filter-btn" data-filter="cultura">Cultura</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeria de Projetos -->
+                <div class="row g-4" id="projectsGallery">
+                    <!-- Projeto 1 - Educação -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="educacao">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-educacao-1.jpg" class="card-img-top" alt="Projeto Educação para Todos" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-primary mb-2">Educação</span>
+                                <h3 class="card-title h5">Educação para Todos</h3>
+                                <p class="card-text">Aulas de reforço escolar e oficinas de leitura para crianças e adolescentes em situação de vulnerabilidade social.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>150 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Centro Comunitário</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal1">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 - Educação -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="educacao">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-educacao-2.jpg" class="card-img-top" alt="Projeto Inclusão Digital" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-primary mb-2">Educação</span>
+                                <h3 class="card-title h5">Inclusão Digital</h3>
+                                <p class="card-text">Oficinas de informática e programação para jovens de comunidades carentes, promovendo a inclusão digital e novas oportunidades profissionais.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>80 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Laboratório de Informática</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal2">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 - Educação -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="educacao">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-educacao-3.jpg" class="card-img-top" alt="Projeto Preparação para o Futuro" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-primary mb-2">Educação</span>
+                                <h3 class="card-title h5">Preparação para o Futuro</h3>
+                                <p class="card-text">Curso preparatório para vestibular e ENEM destinado a jovens de baixa renda, com aulas ministradas por professores voluntários.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>60 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Salas de Aula</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal3">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 4 - Esporte -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="esporte">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-esporte-1.jpg" class="card-img-top" alt="Projeto Esporte é Vida" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Esporte</span>
+                                <h3 class="card-title h5">Esporte é Vida</h3>
+                                <p class="card-text">Atividades esportivas que promovem saúde, disciplina e trabalho em equipe para jovens de comunidades carentes.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>120 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Quadra Poliesportiva</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal4">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 5 - Esporte -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="esporte">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-esporte-2.jpg" class="card-img-top" alt="Projeto Futsal Social" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Esporte</span>
+                                <h3 class="card-title h5">Futsal Social</h3>
+                                <p class="card-text">Treinamento de futsal para crianças e adolescentes, com foco no desenvolvimento de habilidades técnicas e valores como respeito e cooperação.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>90 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Quadra de Futsal</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal5">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 6 - Esporte -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="esporte">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-esporte-3.jpg" class="card-img-top" alt="Projeto Capoeira e Cidadania" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Esporte</span>
+                                <h3 class="card-title h5">Capoeira e Cidadania</h3>
+                                <p class="card-text">Aulas de capoeira que resgatam a cultura afro-brasileira e promovem o desenvolvimento físico, mental e social dos participantes.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>70 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Salão Multiuso</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal6">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 7 - Cultura -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="cultura">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-cultura-1.jpg" class="card-img-top" alt="Projeto Arte e Cultura" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-warning mb-2">Cultura</span>
+                                <h3 class="card-title h5">Arte e Cultura</h3>
+                                <p class="card-text">Oficinas de música, dança e artes visuais que estimulam a criatividade e valorizam a cultura local.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>100 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Centro Cultural</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal7">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 8 - Cultura -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="cultura">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-cultura-2.jpg" class="card-img-top" alt="Projeto Teatro Transformador" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-warning mb-2">Cultura</span>
+                                <h3 class="card-title h5">Teatro Transformador</h3>
+                                <p class="card-text">Oficinas de teatro que desenvolvem a expressão corporal, oralidade e autoconfiança, culminando em apresentações para a comunidade.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>50 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Auditório</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal8">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 9 - Cultura -->
+                    <div class="col-md-6 col-lg-4 project-item" data-category="cultura">
+                        <div class="card h-100 project-card">
+                            <img src="images/projeto-cultura-3.jpg" class="card-img-top" alt="Projeto Música para Todos" loading="lazy">
+                            <div class="card-body">
+                                <span class="badge bg-warning mb-2">Cultura</span>
+                                <h3 class="card-title h5">Música para Todos</h3>
+                                <p class="card-text">Aulas de instrumentos musicais e canto coral, proporcionando acesso à educação musical e formação de grupos musicais comunitários.</p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-users text-primary"></i>
+                                        <span>80 beneficiários</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                        <span>Sala de Música</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projetoModal9">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mensagem de Nenhum Projeto Encontrado -->
+                <div id="noProjectsMessage" class="text-center py-5 d-none">
+                    <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                    <h3>Nenhum projeto encontrado</h3>
+                    <p class="text-muted">Tente selecionar outra categoria ou remover os filtros.</p>
+                    <button class="btn btn-primary mt-3 filter-btn" data-filter="all">Ver Todos os Projetos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto dos Projetos -->
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Impacto dos Nossos Projetos</h2>
+                    <div class="section-title-underline mx-auto"></div>
+                    <p class="lead mt-3">Conheça os resultados que alcançamos juntos.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 mb-4">Educação</h3>
+                                <div class="impact-stat mb-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-primary text-white me-3">
+                                            <i class="fas fa-graduation-cap"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Melhoria no desempenho escolar</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">dos alunos apresentaram melhoria nas notas escolares</p>
+                                </div>
+                                <div class="impact-stat mb-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-primary text-white me-3">
+                                            <i class="fas fa-book-reader"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Redução da evasão escolar</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">de redução na taxa de evasão escolar</p>
+                                </div>
+                                <div class="impact-stat">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-primary text-white me-3">
+                                            <i class="fas fa-university"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Acesso ao ensino superior</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">dos jovens ingressaram em universidades</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 mb-4">Esporte e Cultura</h3>
+                                <div class="impact-stat mb-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-success text-white me-3">
+                                            <i class="fas fa-heartbeat"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Melhoria na saúde física</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">dos participantes apresentaram melhoria na saúde física</p>
+                                </div>
+                                <div class="impact-stat mb-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-success text-white me-3">
+                                            <i class="fas fa-users"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Desenvolvimento de habilidades sociais</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">dos participantes melhoraram suas habilidades sociais</p>
+                                </div>
+                                <div class="impact-stat">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="impact-icon bg-success text-white me-3">
+                                            <i class="fas fa-palette"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Acesso à cultura</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                                    <p class="small text-muted mt-2">dos participantes tiveram seu primeiro contato com atividades culturais</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Depoimentos de Participantes</h2>
+                    <div class="section-title-underline mx-auto"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonial-item text-center">
+                                        <img src="images/depoimento-projeto-1.jpg" alt="Pedro Silva" class="testimonial-img rounded-circle mb-3">
+                                        <h5>Pedro Silva, 16 anos</h5>
+                                        <p class="text-muted">Participante do Projeto Educação para Todos</p>
+                                        <p class="testimonial-text">"Graças ao reforço escolar da ONG Anajo, consegui melhorar minhas notas e agora tenho o sonho de cursar Engenharia. Os professores são incríveis e me ajudaram a acreditar no meu potencial."</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-item text-center">
+                                        <img src="images/depoimento-projeto-2.jpg" alt="Mariana Santos" class="testimonial-img rounded-circle mb-3">
+                                        <h5>Mariana Santos, 14 anos</h5>
+                                        <p class="text-muted">Participante do Projeto Esporte é Vida</p>
+                                        <p class="testimonial-text">"O projeto de esportes mudou minha vida. Aprendi a trabalhar em equipe, fiz novos amigos e descobri que sou capaz de superar desafios. Hoje sou mais disciplinada e confiante."</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-item text-center">
+                                        <img src="images/depoimento-projeto-3.jpg" alt="Lucas Oliveira" class="testimonial-img rounded-circle mb-3">
+                                        <h5>Lucas Oliveira, 15 anos</h5>
+                                        <p class="text-muted">Participante do Projeto Música para Todos</p>
+                                        <p class="testimonial-text">"Nunca imaginei que poderia aprender a tocar um instrumento. As aulas de música abriram um novo mundo para mim e hoje faço parte da orquestra comunitária. A música transformou minha forma de ver o mundo."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                            <div class="carousel-indicators position-relative mt-4">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-5 bg-primary text-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <h2 class="mb-3">Quer apoiar nossos projetos?</h2>
+                        <p class="lead mb-0">Sua contribuição pode fazer a diferença na vida de muitas crianças e jovens.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="doar.html" class="btn btn-light me-2 mb-2 mb-md-0">Doar Agora</a>
+                        <a href="voluntariado.html" class="btn btn-outline-light">Ser Voluntário</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modais de Detalhes dos Projetos -->
+    <!-- Modal Projeto 1 -->
+    <div class="modal fade" id="projetoModal1" tabindex="-1" aria-labelledby="projetoModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projetoModal1Label">Educação para Todos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img src="images/projeto-educacao-1.jpg" alt="Projeto Educação para Todos" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="mb-3">Sobre o Projeto</h5>
+                            <p>O projeto Educação para Todos oferece aulas de reforço escolar e oficinas de leitura para crianças e adolescentes em situação de vulnerabilidade social, contribuindo para a melhoria do desempenho escolar e o desenvolvimento do hábito da leitura.</p>
+                            <div class="project-meta">
+                                <div class="meta-item">
+                                    <strong><i class="fas fa-users me-2 text-primary"></i> Beneficiários:</strong> 150 crianças e adolescentes
+                                </div>
+                                <div class="meta-item">
+                                    <strong><i class="fas fa-calendar-alt me-2 text-primary"></i> Duração:</strong> Ano letivo completo
+                                </div>
+                                <div class="meta-item">
+                                    <strong><i class="fas fa-map-marker-alt me-2 text-primary"></i> Local:</strong> Centro Comunitário
+                                </div>
+                                <div class="meta-item">
+                                    <strong><i class="fas fa-clock me-2 text-primary"></i> Horário:</strong> Segunda a sexta, das 14h às 17h
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="mb-3">Atividades Desenvolvidas</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Aulas de reforço em Português, Matemática, Ciências e outras disciplinas</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Oficinas de leitura e produção textual</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Atividades lúdicas de aprendizagem</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Acompanhamento pedagógico individualizado</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Orientação para estudos e organização</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h5 class="mb-3">Galeria de Fotos</h5>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <a href="images/projeto-educacao-1-galeria-1.jpg" data-lightbox="projeto1" data-title="Aula de reforço escolar">
+                                        <img src="images/projeto-educacao-1-galeria-1.jpg" alt="Aula de reforço escolar" class="img-fluid rounded">
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="images/projeto-educacao-1-galeria-2.jpg" data-lightbox="projeto1" data-title="Oficina de leitura">
+                                        <img src="images/projeto-educacao-1-galeria-2.jpg" alt="Oficina de leitura" class="img-fluid rounded">
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="images/projeto-educacao-1-galeria-3.jpg" data-lightbox="projeto1" data-title="Atividades lúdicas">
+                                        <img src="images/projeto-educacao-1-galeria-3.jpg" alt="Atividades lúdicas" class="img-fluid rounded">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="voluntariado.html" class="btn btn-primary">Quero Ser Voluntário</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 2 (estrutura similar aos demais) -->
+    <div class="modal fade" id="projetoModal2" tabindex="-1" aria-labelledby="projetoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projetoModal2Label">Inclusão Digital</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Conteúdo similar ao Modal 1, adaptado para o Projeto 2 -->
+                    <p>Detalhes do projeto Inclusão Digital...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="voluntariado.html" class="btn btn-primary">Quero Ser Voluntário</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modais 3 a 9 seguiriam a mesma estrutura -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo-anajo-branco.png" alt="Logo ONG Anajo" width="180" class="mb-4">
+                    <p>Transformando vidas através da educação, esporte e cultura desde 2013.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+                    <h5 class="mb-4">Links Rápidos</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="transparencia.html">Transparência</a></li>
+                        <li><a href="voluntariado.html">Voluntariado</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
+                    <h5 class="mb-4">Contato</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Rua das Flores, 123, Centro</li>
+                        <li><i class="fas fa-phone me-2"></i> (11) 1234-5678</li>
+                        <li><i class="fas fa-envelope me-2"></i> contato@anajo.org</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h5 class="mb-4">Horário de Funcionamento</h5>
+                    <ul class="list-unstyled">
+                        <li>Segunda a Sexta: 9h às 18h</li>
+                        <li>Sábado: 9h às 13h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2023 ONG Anajo. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#">Termos de Uso</a></li>
+                        <li class="list-inline-item"><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 mb-3 mb-md-0">
+                    <p class="mb-0">Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com nossa <a href="#">Política de Cookies</a>.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-outline-light me-2" id="cookieReject">Rejeitar</button>
+                    <button class="btn btn-light" id="cookieAccept">Aceitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery (necessário para alguns componentes personalizados) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

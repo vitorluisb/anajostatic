@@ -1,0 +1,27 @@
+{
+  "name": "anajo-site-testes",
+  "version": "1.0.0",
+  "description": "Testes de responsividade e performance para o site da ONG Anajo",
+  "main": "index.js",
+  "scripts": {
+    "test:lighthouse": "node lighthouse-test.js",
+    "test:accessibility": "node accessibility-test.js",
+    "test:responsiveness": "node responsiveness-test.js",
+    "test:all": "npm run test:lighthouse && npm run test:accessibility && npm run test:responsiveness"
+  },
+  "keywords": [
+    "teste",
+    "performance",
+    "acessibilidade",
+    "responsividade"
+  ],
+  "author": "ONG Anajo",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^9.6.8",
+    "puppeteer": "^19.7.0"
+  },
+  "devDependencies": {
+    "pa11y": "^6.2.3"
+  }
+}

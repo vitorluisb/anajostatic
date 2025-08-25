@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "ONG Anajo",
+  "alternateName": "Anajo",
+  "url": "https://www.anajo.org",
+  "logo": "https://www.anajo.org/images/logo-anajo.png",
+  "sameAs": [
+    "https://www.facebook.com/onganajo",
+    "https://www.instagram.com/onganajo",
+    "https://www.twitter.com/onganajo",
+    "https://www.youtube.com/onganajo",
+    "https://www.linkedin.com/company/onganajo"
+  ],
+  "description": "A ONG Anajo promove o desenvolvimento humano e social através de projetos educacionais, esportivos e culturais, contribuindo para a formação de cidadãos conscientes e protagonistas de suas histórias.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua das Flores, 123, Centro",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "01234-567",
+    "addressCountry": "BR"
+  },
+  "telephone": "+551112345678",
+  "email": "contato@anajo.org",
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "foundingDate": "2010",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Maria Silva"
+    },
+    {
+      "@type": "Person",
+      "name": "João Santos"
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "São Paulo"
+  },
+  "nonprofitStatus": "Nonprofit501c3",
+  "knowsAbout": ["Educação", "Esporte", "Cultura", "Desenvolvimento Social", "Voluntariado"],
+  "keywords": "ONG, projetos sociais, educação, esporte, cultura, voluntariado, doação",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.anajo.org"
+  },
+  "potentialAction": [
+    {
+      "@type": "DonateAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.anajo.org/doar.html"
+      }
+    },
+    {
+      "@type": "JoinAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.anajo.org/voluntariado.html"
+      }
+    }
+  ]
+}

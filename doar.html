@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faça sua doação para a ONG Anajo e ajude a transformar vidas através da educação, esporte e cultura">
+    <meta name="keywords" content="ONG Anajo, doação, doar, ajuda, contribuição, PIX, transferência bancária">
+    <meta name="author" content="ONG Anajo">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.anajo.org/doar.html">
+    <meta property="og:title" content="Doações - ONG Anajo">
+    <meta property="og:description" content="Faça sua doação para a ONG Anajo e ajude a transformar vidas através da educação, esporte e cultura">
+    <meta property="og:image" content="images/og-image-doar.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.anajo.org/doar.html">
+    <meta property="twitter:title" content="Doações - ONG Anajo">
+    <meta property="twitter:description" content="Faça sua doação para a ONG Anajo e ajude a transformar vidas através da educação, esporte e cultura">
+    <meta property="twitter:image" content="images/og-image-doar.jpg">
+    
+    <title>Doações - ONG Anajo</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Doações - ONG Anajo",
+      "description": "Faça sua doação para a ONG Anajo e ajude a transformar vidas através de projetos sociais",
+      "url": "https://www.anajo.org/doar.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ONG Anajo",
+        "url": "https://www.anajo.org"
+      },
+      "mainEntity": {
+        "@type": "DonateAction",
+        "recipient": {
+          "@type": "NGO",
+          "name": "ONG Anajo"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://www.anajo.org"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Doar",
+            "item": "https://www.anajo.org/doar.html"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Barra de acessibilidade -->
+    <div class="accessibility-bar bg-dark text-white py-1">
+        <div class="container d-flex justify-content-end">
+            <button class="btn btn-sm btn-outline-light me-2" id="increase-font"><i class="fas fa-plus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="decrease-font"><i class="fas fa-minus"></i> A</button>
+            <button class="btn btn-sm btn-outline-light me-2" id="contrast-toggle"><i class="fas fa-adjust"></i> Contraste</button>
+            <a href="acessibilidade.html" class="btn btn-sm btn-outline-light">Acessibilidade</a>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-anajo.png" alt="Logo ONG Anajo" width="150" height="60" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetos.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transparencia.html">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-primary active" aria-current="page" href="doar.html">Doar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-light py-2">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Doações</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-header bg-primary text-white py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-4">Faça sua Doação</h1>
+                        <p class="lead mb-0">Sua contribuição é fundamental para mantermos nossos projetos e transformarmos a vida de crianças e jovens em situação de vulnerabilidade social.</p>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img src="images/doacao-hero.jpg" alt="Crianças beneficiadas pela ONG Anajo" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Por que doar -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="text-center mb-5">
+                            <h2 class="section-title">Por que doar para a Anajo?</h2>
+                            <div class="section-title-underline mx-auto"></div>
+                            <p class="lead mt-4">Sua doação tem um impacto direto na vida de centenas de crianças e jovens atendidos pela ONG Anajo. Com transparência e compromisso, transformamos cada contribuição em oportunidades reais de desenvolvimento.</p>
+                        </div>
+                        
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0 shadow-sm donation-card">
+                                    <div class="card-body text-center p-4">
+                                        <div class="donation-icon bg-primary text-white mb-3">
+                                            <i class="fas fa-hand-holding-heart"></i>
+                                        </div>
+                                        <h3 class="h5 mb-3">Impacto Social</h3>
+                                        <p class="card-text">Cada R$ 1 doado se transforma em R$ 4 de impacto social, beneficiando diretamente crianças, jovens e famílias em situação de vulnerabilidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0 shadow-sm donation-card">
+                                    <div class="card-body text-center p-4">
+                                        <div class="donation-icon bg-primary text-white mb-3">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <h3 class="h5 mb-3">Transparência</h3>
+                                        <p class="card-text">Prestamos contas de cada centavo recebido. Nossos relatórios financeiros são publicados trimestralmente e auditados anualmente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0 shadow-sm donation-card">
+                                    <div class="card-body text-center p-4">
+                                        <div class="donation-icon bg-primary text-white mb-3">
+                                            <i class="fas fa-seedling"></i>
+                                        </div>
+                                        <h3 class="h5 mb-3">Sustentabilidade</h3>
+                                        <p class="card-text">Sua doação contribui para a continuidade e expansão dos nossos projetos, garantindo um impacto duradouro na comunidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opções de Doação -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="section-title text-center mb-5">Escolha como doar</h2>
+                        
+                        <div class="row g-4">
+                            <!-- Doação Única -->
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-0 shadow-lg h-100">
+                                    <div class="card-header bg-primary text-white py-3">
+                                        <h3 class="h4 mb-0 text-center">Doação Única</h3>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <p class="text-center mb-4">Escolha um valor para doar uma única vez:</p>
+                                        
+                                        <div class="donation-values mb-4">
+                                            <div class="row g-2">
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="single-donation" id="single-30" autocomplete="off" value="30">
+                                                    <label class="btn btn-outline-primary w-100" for="single-30">R$ 30</label>
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="single-donation" id="single-50" autocomplete="off" value="50">
+                                                    <label class="btn btn-outline-primary w-100" for="single-50">R$ 50</label>
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="single-donation" id="single-100" autocomplete="off" value="100">
+                                                    <label class="btn btn-outline-primary w-100" for="single-100">R$ 100</label>
+                                                </div>
+                                                <div class="col-12 mt-2">
+                                                    <input type="radio" class="btn-check" name="single-donation" id="single-other" autocomplete="off" value="other">
+                                                    <label class="btn btn-outline-primary w-100" for="single-other">Outro valor</label>
+                                                </div>
+                                                <div class="col-12 mt-2 other-value-container d-none" id="single-other-container">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">R$</span>
+                                                        <input type="number" class="form-control" id="single-other-value" placeholder="Digite o valor" min="1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="text-center">
+                                            <button class="btn btn-primary btn-lg px-4 mb-3" id="single-donation-btn" disabled>Doar Agora</button>
+                                            <p class="text-muted small">Você será redirecionado para completar sua doação de forma segura.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Doação Mensal -->
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-0 shadow-lg h-100">
+                                    <div class="card-header bg-success text-white py-3">
+                                        <h3 class="h4 mb-0 text-center">Doação Mensal</h3>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <p class="text-center mb-4">Escolha um valor para doar mensalmente:</p>
+                                        
+                                        <div class="donation-values mb-4">
+                                            <div class="row g-2">
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="monthly-donation" id="monthly-30" autocomplete="off" value="30">
+                                                    <label class="btn btn-outline-success w-100" for="monthly-30">R$ 30</label>
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="monthly-donation" id="monthly-50" autocomplete="off" value="50">
+                                                    <label class="btn btn-outline-success w-100" for="monthly-50">R$ 50</label>
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="radio" class="btn-check" name="monthly-donation" id="monthly-100" autocomplete="off" value="100">
+                                                    <label class="btn btn-outline-success w-100" for="monthly-100">R$ 100</label>
+                                                </div>
+                                                <div class="col-12 mt-2">
+                                                    <input type="radio" class="btn-check" name="monthly-donation" id="monthly-other" autocomplete="off" value="other">
+                                                    <label class="btn btn-outline-success w-100" for="monthly-other">Outro valor</label>
+                                                </div>
+                                                <div class="col-12 mt-2 other-value-container d-none" id="monthly-other-container">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">R$</span>
+                                                        <input type="number" class="form-control" id="monthly-other-value" placeholder="Digite o valor" min="1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="text-center">
+                                            <button class="btn btn-success btn-lg px-4 mb-3" id="monthly-donation-btn" disabled>Doar Mensalmente</button>
+                                            <p class="text-muted small">Você será redirecionado para completar sua doação de forma segura.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Métodos de Pagamento -->
+                        <div class="card border-0 shadow-lg mt-4">
+                            <div class="card-body p-4">
+                                <h3 class="h5 mb-4 text-center">Métodos de Pagamento</h3>
+                                
+                                <div class="row g-4">
+                                    <!-- PIX -->
+                                    <div class="col-md-6">
+                                        <div class="payment-method-card p-4 h-100">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <div class="payment-icon me-3">
+                                                    <img src="images/pix-icon.png" alt="Ícone PIX" width="40" height="40">
+                                                </div>
+                                                <h4 class="h5 mb-0">PIX</h4>
+                                            </div>
+                                            <p>Faça sua doação instantânea via PIX:</p>
+                                            <div class="pix-info bg-light p-3 rounded mb-3">
+                                                <p class="mb-2"><strong>Chave PIX (CNPJ):</strong></p>
+                                                <div class="d-flex align-items-center">
+                                                    <code class="bg-white p-2 rounded flex-grow-1">12.345.678/0001-90</code>
+                                                    <button class="btn btn-sm btn-outline-primary ms-2" id="copy-pix"><i class="fas fa-copy"></i></button>
+                                                </div>
+                                            </div>
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pixModal">
+                                                    <i class="fas fa-qrcode me-2"></i> Ver QR Code
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Transferência Bancária -->
+                                    <div class="col-md-6">
+                                        <div class="payment-method-card p-4 h-100">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <div class="payment-icon me-3">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <h4 class="h5 mb-0">Transferência Bancária</h4>
+                                            </div>
+                                            <p>Dados para transferência:</p>
+                                            <div class="bank-info bg-light p-3 rounded">
+                                                <p class="mb-1"><strong>Banco:</strong> Banco do Brasil</p>
+                                                <p class="mb-1"><strong>Agência:</strong> 1234-5</p>
+                                                <p class="mb-1"><strong>Conta Corrente:</strong> 12345-6</p>
+                                                <p class="mb-1"><strong>Favorecido:</strong> Associação Anajo</p>
+                                                <p class="mb-0"><strong>CNPJ:</strong> 12.345.678/0001-90</p>
+                                            </div>
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-primary" id="copy-bank-info">
+                                                    <i class="fas fa-copy me-2"></i> Copiar Dados
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto das Doações -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="section-title text-center mb-5">O impacto da sua doação</h2>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-4 mb-4">
+                                <div class="impact-card text-center p-4">
+                                    <div class="impact-icon mb-3">
+                                        <img src="images/impact-education.svg" alt="Ícone de educação" width="80" height="80">
+                                    </div>
+                                    <h3 class="h5 mb-3">R$ 30 por mês</h3>
+                                    <p>Fornece material escolar completo para uma criança durante um semestre.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="impact-card text-center p-4">
+                                    <div class="impact-icon mb-3">
+                                        <img src="images/impact-food.svg" alt="Ícone de alimentação" width="80" height="80">
+                                    </div>
+                                    <h3 class="h5 mb-3">R$ 50 por mês</h3>
+                                    <p>Garante alimentação nutritiva para 10 crianças durante as atividades semanais.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="impact-card text-center p-4">
+                                    <div class="impact-icon mb-3">
+                                        <img src="images/impact-sports.svg" alt="Ícone de esportes" width="80" height="80">
+                                    </div>
+                                    <h3 class="h5 mb-3">R$ 100 por mês</h3>
+                                    <p>Mantém uma turma de 15 crianças em atividades esportivas durante um mês.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-5">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body p-4">
+                                        <h3 class="h5 mb-3">Prestação de Contas</h3>
+                                        <p>Todos os nossos doadores recebem relatórios trimestrais detalhando como os recursos foram utilizados e qual foi o impacto gerado.</p>
+                                        <p>Além disso, publicamos anualmente nosso balanço financeiro auditado por empresa independente.</p>
+                                        <a href="transparencia.html" class="btn btn-outline-primary mt-2">
+                                            <i class="fas fa-chart-pie me-2"></i> Ver Relatórios
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body p-4">
+                                        <h3 class="h5 mb-3">Benefícios Fiscais</h3>
+                                        <p>Pessoas físicas podem deduzir até 6% do Imposto de Renda devido para doações realizadas à ONG Anajo, conforme a legislação vigente.</p>
+                                        <p>Empresas tributadas pelo lucro real podem deduzir até 1% do IR devido.</p>
+                                        <a href="#" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#taxBenefitsModal">
+                                            <i class="fas fa-file-invoice-dollar me-2"></i> Saiba Mais
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos de Doadores -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="section-title text-center mb-5">Depoimentos de Doadores</h2>
+                        
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div id="donorTestimonials" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Depoimento 1 -->
+                                        <div class="carousel-item active">
+                                            <div class="testimonial-card text-center p-4 p-md-5">
+                                                <div class="testimonial-img mx-auto mb-4">
+                                                    <img src="images/doador-1.jpg" alt="Foto de Roberto Almeida, doador" class="rounded-circle">
+                                                </div>
+                                                <p class="testimonial-text mb-4">"Contribuo mensalmente com a Anajo há 3 anos e fico impressionado com a transparência e o impacto do trabalho realizado. Recebo regularmente relatórios detalhados sobre como minha doação está sendo utilizada."</p>
+                                                <h4 class="h5 mb-1">Roberto Almeida</h4>
+                                                <p class="text-muted">Doador mensal há 3 anos</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Depoimento 2 -->
+                                        <div class="carousel-item">
+                                            <div class="testimonial-card text-center p-4 p-md-5">
+                                                <div class="testimonial-img mx-auto mb-4">
+                                                    <img src="images/doador-2.jpg" alt="Foto de Empresa ABC, doadora" class="rounded-circle">
+                                                </div>
+                                                <p class="testimonial-text mb-4">"Como empresa, buscamos parceiros que realmente façam a diferença na sociedade. A Anajo nos impressionou com sua gestão profissional e resultados concretos. Temos orgulho de apoiar essa causa."</p>
+                                                <h4 class="h5 mb-1">Empresa ABC</h4>
+                                                <p class="text-muted">Parceira institucional há 5 anos</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Depoimento 3 -->
+                                        <div class="carousel-item">
+                                            <div class="testimonial-card text-center p-4 p-md-5">
+                                                <div class="testimonial-img mx-auto mb-4">
+                                                    <img src="images/doador-3.jpg" alt="Foto de Luciana Ferreira, doadora" class="rounded-circle">
+                                                </div>
+                                                <p class="testimonial-text mb-4">"Conheci a Anajo através de amigos e decidi contribuir. O que mais me impressiona é ver como pequenas doações se transformam em grandes mudanças na vida das crianças. É gratificante fazer parte dessa transformação."</p>
+                                                <h4 class="h5 mb-1">Luciana Ferreira</h4>
+                                                <p class="text-muted">Doadora há 2 anos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#donorTestimonials" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#donorTestimonials" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Próximo</span>
+                                    </button>
+                                    <div class="carousel-indicators position-relative mt-4">
+                                        <button type="button" data-bs-target="#donorTestimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#donorTestimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#donorTestimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="section-title text-center mb-5">Perguntas Frequentes</h2>
+                        
+                        <div class="accordion" id="faqAccordion">
+                            <!-- Pergunta 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="faqHeadingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                        Como posso ter certeza de que minha doação será bem utilizada?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        A ONG Anajo presta contas de forma transparente e regular. Publicamos relatórios trimestrais detalhando a aplicação dos recursos e o impacto gerado. Além disso, nosso balanço financeiro é auditado anualmente por empresa independente. Todos os doadores recebem esses relatórios por e-mail e podem acessá-los na seção de Transparência do nosso site.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Pergunta 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="faqHeadingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                        Posso cancelar minha doação mensal a qualquer momento?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sim, você pode cancelar sua doação mensal a qualquer momento, sem burocracia. Basta entrar em contato conosco por e-mail ou telefone informando seu desejo de cancelamento. Não há período mínimo de permanência ou multa por cancelamento.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Pergunta 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="faqHeadingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                        Como obter o recibo para dedução no Imposto de Renda?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Emitimos automaticamente o recibo para todas as doações realizadas durante o ano fiscal. O documento é enviado por e-mail até o final de fevereiro do ano seguinte, a tempo para a declaração do Imposto de Renda. Caso precise do recibo antes desse prazo, basta solicitar pelo e-mail doacoes@anajo.org.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Pergunta 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="faqHeadingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                        Posso fazer uma doação específica para um projeto?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sim, é possível direcionar sua doação para um projeto específico. Ao realizar a transferência ou PIX, basta incluir no campo de descrição/mensagem o nome do projeto que deseja apoiar. Você também pode entrar em contato conosco para discutir opções de apoio direcionado a iniciativas específicas.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Pergunta 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="faqHeadingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                                        Empresas podem fazer doações? Quais são os benefícios?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sim, empresas podem fazer doações e obter benefícios fiscais. Empresas tributadas pelo lucro real podem deduzir até 1% do Imposto de Renda devido. Além disso, oferecemos contrapartidas como divulgação da marca em nossos materiais institucionais, relatórios de impacto personalizados e oportunidades de voluntariado corporativo. Entre em contato com nossa equipe de parcerias para mais informações.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-5 bg-primary text-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <h2 class="mb-3">Ainda tem dúvidas?</h2>
+                        <p class="lead mb-0">Entre em contato conosco para saber mais sobre como você pode contribuir com a ONG Anajo.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="contato.html" class="btn btn-light">Fale Conosco</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal PIX QR Code -->
+    <div class="modal fade" id="pixModal" tabindex="-1" aria-labelledby="pixModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pixModalLabel">QR Code PIX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center py-4">
+                    <img src="images/pix-qrcode.png" alt="QR Code PIX para doação" class="img-fluid mb-3" width="200">
+                    <p class="mb-0">Escaneie o QR Code com o aplicativo do seu banco para fazer a doação via PIX.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" id="download-qrcode">
+                        <i class="fas fa-download me-2"></i> Baixar QR Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Benefícios Fiscais -->
+    <div class="modal fade" id="taxBenefitsModal" tabindex="-1" aria-labelledby="taxBenefitsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="taxBenefitsModalLabel">Benefícios Fiscais para Doadores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Pessoa Física</h6>
+                    <p>Pessoas físicas que fazem a declaração de Imposto de Renda pelo modelo completo podem deduzir até 6% do IR devido para doações realizadas à ONG Anajo.</p>
+                    <p>Para isso, é necessário:</p>
+                    <ul>
+                        <li>Solicitar o recibo de doação;</li>
+                        <li>Guardar o comprovante da transferência ou PIX;</li>
+                        <li>Informar a doação na ficha "Doações Efetuadas" da declaração de IR;</li>
+                        <li>Utilizar o CNPJ da ONG Anajo: 12.345.678/0001-90.</li>
+                    </ul>
+                    
+                    <h6 class="mt-4">Pessoa Jurídica</h6>
+                    <p>Empresas tributadas pelo lucro real podem deduzir até 1% do Imposto de Renda devido para doações realizadas à ONG Anajo.</p>
+                    <p>Para isso, é necessário:</p>
+                    <ul>
+                        <li>Solicitar o recibo de doação em nome da empresa;</li>
+                        <li>Guardar o comprovante da transferência ou PIX;</li>
+                        <li>Contabilizar a doação como despesa operacional;</li>
+                        <li>Informar a doação na declaração de IR da pessoa jurídica.</li>
+                    </ul>
+                    
+                    <h6 class="mt-4">Documentação</h6>
+                    <p>A ONG Anajo fornece toda a documentação necessária para a dedução fiscal:</p>
+                    <ul>
+                        <li>Recibo de doação com CNPJ e dados completos;</li>
+                        <li>Certificado de Entidade Beneficente;</li>
+                        <li>Declaração de utilidade pública.</li>
+                    </ul>
+                    
+                    <p class="mt-4">Para mais informações, consulte seu contador ou entre em contato com nossa equipe financeira pelo e-mail: financeiro@anajo.org</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmação de Doação -->
+    <div class="modal fade" id="donationConfirmModal" tabindex="-1" aria-labelledby="donationConfirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="donationConfirmModalLabel">Confirmação de Doação</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center py-4">
+                    <div class="success-icon mb-4">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h4 class="mb-3">Obrigado por sua doação!</h4>
+                    <p>Sua contribuição fará a diferença na vida de muitas crianças e jovens.</p>
+                    <p>Enviamos um e-mail de confirmação com os detalhes da sua doação.</p>
+                    <div class="donation-details mt-4 p-3 bg-light rounded">
+                        <p class="mb-1"><strong>Valor:</strong> <span id="confirm-value">R$ 50,00</span></p>
+                        <p class="mb-1"><strong>Tipo:</strong> <span id="confirm-type">Doação única</span></p>
+                        <p class="mb-0"><strong>Data:</strong> <span id="confirm-date">01/06/2023</span></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo-anajo-branco.png" alt="Logo ONG Anajo" width="180" class="mb-4">
+                    <p>Transformando vidas através da educação, esporte e cultura desde 2013.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+                    <h5 class="mb-4">Links Rápidos</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="transparencia.html">Transparência</a></li>
+                        <li><a href="voluntariado.html">Voluntariado</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
+                    <h5 class="mb-4">Contato</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Rua das Flores, 123, Centro</li>
+                        <li><i class="fas fa-phone me-2"></i> (11) 1234-5678</li>
+                        <li><i class="fas fa-envelope me-2"></i> contato@anajo.org</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h5 class="mb-4">Horário de Funcionamento</h5>
+                    <ul class="list-unstyled">
+                        <li>Segunda a Sexta: 9h às 18h</li>
+                        <li>Sábado: 9h às 13h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2023 ONG Anajo. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#">Termos de Uso</a></li>
+                        <li class="list-inline-item"><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 mb-3 mb-md-0">
+                    <p class="mb-0">Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com nossa <a href="#">Política de Cookies</a>.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-outline-light me-2" id="cookieReject">Rejeitar</button>
+                    <button class="btn btn-light" id="cookieAccept">Aceitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery (necessário para alguns componentes personalizados) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Doação JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Controle de valores de doação única
+            const singleDonationRadios = document.querySelectorAll('input[name="single-donation"]');
+            const singleOtherContainer = document.getElementById('single-other-container');
+            const singleOtherValue = document.getElementById('single-other-value');
+            const singleDonationBtn = document.getElementById('single-donation-btn');
+            
+            // Controle de valores de doação mensal
+            const monthlyDonationRadios = document.querySelectorAll('input[name="monthly-donation"]');
+            const monthlyOtherContainer = document.getElementById('monthly-other-container');
+            const monthlyOtherValue = document.getElementById('monthly-other-value');
+            const monthlyDonationBtn = document.getElementById('monthly-donation-btn');
+            
+            // Funções para copiar informações
+            const copyPixBtn = document.getElementById('copy-pix');
+            const copyBankInfoBtn = document.getElementById('copy-bank-info');
+            const downloadQRCodeBtn = document.getElementById('download-qrcode');
+            
+            // Função para mostrar/esconder campo de outro valor (doação única)
+            singleDonationRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    if (this.id === 'single-other') {
+                        singleOtherContainer.classList.remove('d-none');
+                        singleDonationBtn.disabled = true;
+                    } else {
+                        singleOtherContainer.classList.add('d-none');
+                        singleDonationBtn.disabled = false;
+                    }
+                });
+            });
+            
+            // Função para mostrar/esconder campo de outro valor (doação mensal)
+            monthlyDonationRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    if (this.id === 'monthly-other') {
+                        monthlyOtherContainer.classList.remove('d-none');
+                        monthlyDonationBtn.disabled = true;
+                    } else {
+                        monthlyOtherContainer.classList.add('d-none');
+                        monthlyDonationBtn.disabled = false;
+                    }
+                });
+            });
+            
+            // Validar valor personalizado (doação única)
+            singleOtherValue.addEventListener('input', function() {
+                singleDonationBtn.disabled = !(this.value && parseFloat(this.value) > 0);
+            });
+            
+            // Validar valor personalizado (doação mensal)
+            monthlyOtherValue.addEventListener('input', function() {
+                monthlyDonationBtn.disabled = !(this.value && parseFloat(this.value) > 0);
+            });
+            
+            // Copiar chave PIX
+            copyPixBtn.addEventListener('click', function() {
+                navigator.clipboard.writeText('12.345.678/0001-90').then(() => {
+                    this.innerHTML = '<i class="fas fa-check"></i>';
+                    setTimeout(() => {
+                        this.innerHTML = '<i class="fas fa-copy"></i>';
+                    }, 2000);
+                });
+            });
+            
+            // Copiar dados bancários
+            copyBankInfoBtn.addEventListener('click', function() {
+                const bankInfo = 'Banco: Banco do Brasil\nAgência: 1234-5\nConta Corrente: 12345-6\nFavorecido: Associação Anajo\nCNPJ: 12.345.678/0001-90';
+                navigator.clipboard.writeText(bankInfo).then(() => {
+                    this.innerHTML = '<i class="fas fa-check me-2"></i> Copiado!';
+                    setTimeout(() => {
+                        this.innerHTML = '<i class="fas fa-copy me-2"></i> Copiar Dados';
+                    }, 2000);
+                });
+            });
+            
+            // Simular download do QR Code
+            downloadQRCodeBtn.addEventListener('click', function() {
+                alert('Download do QR Code iniciado!');
+                // Em um cenário real, aqui seria implementado o download da imagem
+            });
+            
+            // Simular processo de doação (doação única)
+            singleDonationBtn.addEventListener('click', function() {
+                let donationValue = 0;
+                let selectedRadio = document.querySelector('input[name="single-donation"]:checked');
+                
+                if (selectedRadio.id === 'single-other') {
+                    donationValue = parseFloat(singleOtherValue.value);
+                } else {
+                    donationValue = parseFloat(selectedRadio.value);
+                }
+                
+                // Atualizar modal de confirmação
+                document.getElementById('confirm-value').textContent = `R$ ${donationValue.toFixed(2)}`;
+                document.getElementById('confirm-type').textContent = 'Doação única';
+                
+                const today = new Date();
+                document.getElementById('confirm-date').textContent = today.toLocaleDateString('pt-BR');
+                
+                // Exibir modal de confirmação
+                const confirmModal = new bootstrap.Modal(document.getElementById('donationConfirmModal'));
+                confirmModal.show();
+            });
+            
+            // Simular processo de doação (doação mensal)
+            monthlyDonationBtn.addEventListener('click', function() {
+                let donationValue = 0;
+                let selectedRadio = document.querySelector('input[name="monthly-donation"]:checked');
+                
+                if (selectedRadio.id === 'monthly-other') {
+                    donationValue = parseFloat(monthlyOtherValue.value);
+                } else {
+                    donationValue = parseFloat(selectedRadio.value);
+                }
+                
+                // Atualizar modal de confirmação
+                document.getElementById('confirm-value').textContent = `R$ ${donationValue.toFixed(2)}`;
+                document.getElementById('confirm-type').textContent = 'Doação mensal';
+                
+                const today = new Date();
+                document.getElementById('confirm-date').textContent = today.toLocaleDateString('pt-BR');
+                
+                // Exibir modal de confirmação
+                const confirmModal = new bootstrap.Modal(document.getElementById('donationConfirmModal'));
+                confirmModal.show();
+            });
+        });
+    </script>
+</body>
+</html>
