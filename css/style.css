@@ -464,7 +464,7 @@ header {
 
 .project-card-category {
     display: inline-block;
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
     font-size: var(--font-size-xs);
     padding: 0.25rem 0.75rem;
@@ -487,13 +487,13 @@ header {
 }
 
 .project-filters .btn.active {
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
 }
 
 /* Estatísticas */
 .stats-section {
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
     padding: 4rem 0;
 }
@@ -530,7 +530,7 @@ header {
     content: '\201C';
     font-family: Georgia, serif;
     font-size: 5rem;
-    color: var(--primary-light);
+    color: var(--red-light);
     position: absolute;
     top: -1rem;
     left: 1rem;
@@ -584,8 +584,8 @@ header {
 }
 
 .form-check-input:checked {
-    background-color: var(--primary);
-    border-color: var(--primary);
+    background-color: var(--red-soft);
+    border-color: var(--red-soft);
 }
 
 /* Formulário multi-step */
@@ -637,7 +637,7 @@ header {
 }
 
 .step.active .step-number {
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
 }
 
@@ -676,7 +676,7 @@ header {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
 }
 
@@ -700,7 +700,7 @@ header {
 .contact-icon {
     width: 40px;
     height: 40px;
-    background-color: var(--primary-light);
+    background-color: var(--red-light);
     color: var(--white);
     border-radius: var(--border-radius-circle);
     display: flex;
@@ -717,7 +717,7 @@ header {
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
     border-radius: var(--border-radius-circle);
     display: flex;
@@ -789,7 +789,7 @@ footer .social-link {
 }
 
 footer .social-link:hover {
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     transform: translateY(-3px);
 }
 
@@ -801,7 +801,7 @@ footer .social-link:hover {
     width: 3rem;
     height: 3rem;
     border-radius: var(--border-radius-circle);
-    background-color: var(--primary);
+    background-color: var(--red-soft);
     color: var(--white);
     display: flex;
     align-items: center;
@@ -1053,7 +1053,7 @@ body.high-contrast .border-light {
     position: absolute;
     top: -40px;
     left: 0;
-    background: var(--primary);
+    background: var(--red-soft);
     color: white;
     padding: 8px;
     z-index: 9999;
@@ -1093,7 +1093,7 @@ body.high-contrast .border-light {
 }
 
 .team-member-role {
-    color: var(--primary);
+    color: var(--red-soft);
     font-weight: 600;
     margin-bottom: 0.75rem;
 }
@@ -1107,7 +1107,7 @@ body.high-contrast .border-light {
 .team-member-social a {
     width: 36px;
     height: 36px;
-    background-color: var(--primary-light);
+    background-color: var(--red-light);
     color: var(--white);
     border-radius: var(--border-radius-circle);
     display: flex;
@@ -1139,7 +1139,7 @@ body.high-contrast .border-light {
 .donation-option-title {
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--primary);
+    color: var(--red-soft);
 }
 
 .donation-amount-options {
@@ -1166,8 +1166,8 @@ body.high-contrast .border-light {
 }
 
 .donation-amount-option.active {
-    background-color: var(--primary);
-    border-color: var(--primary);
+    background-color: var(--red-soft);
+    border-color: var(--red-soft);
     color: var(--white);
 }
 
@@ -1191,14 +1191,14 @@ body.high-contrast .border-light {
 }
 
 .payment-method.active {
-    border-color: var(--primary);
-    background-color: rgba(46, 134, 222, 0.05);
+    border-color: var(--red-soft);
+    background-color: var(--red-subtle);
 }
 
 .payment-method-icon {
     font-size: 1.5rem;
     margin-right: 1rem;
-    color: var(--primary);
+    color: var(--red-soft);
 }
 
 .payment-method-info {
@@ -1270,7 +1270,7 @@ body.high-contrast .border-light {
 
 .document-icon {
     font-size: 2rem;
-    color: var(--primary);
+    color: var(--red-soft);
     margin-right: 1.5rem;
 }
 
